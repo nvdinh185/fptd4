@@ -10,9 +10,11 @@ public class HashMapExample {
 		map.put(1, "Mango"); // Put elements in Map
 		map.put(3, "Banana");
 		map.put(null, null);
-		map.put(5, "Orange");
-		map.put(4, "Orange");
+		map.put(5, "Carrot");
+		map.put(6, "Apple");
 		map.put(1, "Grapes"); // trying duplicate key
+		map.put(4, "Orange");
+		map.put(2, "Fruit");
 
 		System.out.println("Iterating Hashmap...");
 

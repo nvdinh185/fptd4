@@ -18,6 +18,7 @@ public class CollectionsExample {
 
 		String[] strArr = { "C#", ".Net" };
 		Collections.addAll(list, strArr);
+		
 		System.out.println("After adding array collection value: " + list);
 
 		Collections.sort(list);
